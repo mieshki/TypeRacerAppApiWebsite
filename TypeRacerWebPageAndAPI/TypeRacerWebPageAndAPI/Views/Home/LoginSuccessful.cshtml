@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border: 1px solid black;
+</style>
+
+@functions
+{
+    string HelloMessage(string user)
+    {
+        var msg = "Hi " + user + ", welcome again!";
+        return msg;
+    }
+}
+
+@HelloMessage(@ViewBag.Message)<br />
+
+<label>Played count: @ViewBag.PlayedCount</label><br />
+
+@if (ViewBag.allScores.Count > 0)
+{
+    @Html.Raw("<table style=\"border: 1px solid black;\">");
+    @Html.Raw("<tr>" +
+    "<th>No.</th>" +
+    "<th>Player</th>" +
+    "<th>Words/min</th>" +
+    "<th>Time[s]</th>" +
+    "<th>Map</th>" +
+    "</tr>");
+    for (int i = 0; i < @ViewBag.allScores.Count; i++)
+    {
+        @Html.Raw("<tr>" +
+       "<td>" + (i + 1) + "</td>" +
+       "<td>" + ViewBag.allScores[i].Player + "</td>" +
+       "<td>" + ViewBag.allScores[i].WordsPerMinute + "</td>" +
+       "<td>" + ViewBag.allScores[i].TimeInSeconds + "</td>" +
+       "<td>" + ViewBag.allScores[i].Map + "</td>" +
+       "</tr>");
+    }
+    @Html.Raw("</table>");
+}

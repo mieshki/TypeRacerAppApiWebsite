@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeRacerWebPageAndAPI", "TypeRacerWebPageAndAPI\TypeRacerWebPageAndAPI.csproj", "{C626239A-1E78-4B07-93BE-A01E67FDA59E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C626239A-1E78-4B07-93BE-A01E67FDA59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C626239A-1E78-4B07-93BE-A01E67FDA59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C626239A-1E78-4B07-93BE-A01E67FDA59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C626239A-1E78-4B07-93BE-A01E67FDA59E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5429033-F8D1-41B9-B187-AF9FF3B8CB8F}
+	EndGlobalSection
+EndGlobal

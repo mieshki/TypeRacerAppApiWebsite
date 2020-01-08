@@ -1,0 +1,24 @@
+﻿@model TypeRacerWebPageAndAPI.Models.AccountModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<hr />
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+    <label>Username: </label>
+    @Html.TextBoxFor(model => model.Username)
+    @Html.ValidationMessageFor(model => model.Username)<br />
+
+
+    <label>Password: </label>
+    @Html.TextBoxFor(model => model.Password)
+    @Html.ValidationMessageFor(model => model.Password)<br />
+
+    <button type="submit">Login</button><br /><br />
+    <a href="/Register">Don't have account? Click here to register</a>
+}

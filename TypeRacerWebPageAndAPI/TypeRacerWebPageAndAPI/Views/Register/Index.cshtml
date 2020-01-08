@@ -1,0 +1,24 @@
+﻿@model TypeRacerWebPageAndAPI.Models.AccountModel
+
+@{
+    ViewBag.Title = "Register Page";
+}
+
+
+
+<h2>@ViewBag.Message</h2>
+
+<hr />
+
+@using (Html.BeginForm("CreateNewAccount", "Register", FormMethod.Post))
+{
+    <label>Username: </label>
+    @Html.TextBoxFor(model => model.Username)
+    @Html.ValidationMessageFor(model => model.Username)<br />
+
+    <label>Password: </label>
+    @Html.TextBoxFor(model => model.Password)
+    @Html.ValidationMessageFor(model => model.Password)<br />
+
+    <button type="submit">Register</button><br /><br />
+}

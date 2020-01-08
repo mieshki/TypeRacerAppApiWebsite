@@ -1,0 +1,15 @@
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\bin\Debug\TypeRacer.exe.config
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\bin\Debug\TypeRacer.exe
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\bin\Debug\TypeRacer.pdb
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.csprojAssemblyReference.cache
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.Properties.Resources.resources
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.csproj.GenerateResource.cache
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.csproj.CoreCompileInputs.cache
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.exe
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.pdb
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.LoginForm.resources
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.GameForm.resources
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.ChooseRaceLevel.resources
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mdziado\source\repos\TypeRacer\TypeRacer\obj\Debug\TypeRacer.csproj.CopyComplete
